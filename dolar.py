@@ -17,7 +17,7 @@ for dollar in response.json():
   date = parser.parse(dollar['fechaActualizacion']).strftime("%d/%m/%Y %H:%M:%S")
   table.add_row(str(dollar['nombre']), '$' + str( dollar['venta']), '$' + str(dollar['compra']), date + 'HS')
 
-text = Text("👍 Informacion obtenida en https://dolarapi.com")
+text = Text("👍 https://dolarapi.com")
 text.stylize("bold magenta", 0)
 
 console = Console()
