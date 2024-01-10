@@ -11,5 +11,5 @@ python3 dolar.py
 ```
 ### Podes crear un alias en tu .bashrc:
 ```
-alias dolar="python3 /home/usuarios/projects/dolar.py"
+alias dolar="python3 /home/usuario/dolar-hoy/dolar.py"
 ```
